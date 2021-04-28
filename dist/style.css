@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+*{
+font-family:'Product sans'
+}
+
+#main-doc{
+  height:100%;
+  width:100%;
+}
+
+#navbar{
+  position:fixed;
+  width:300px;
+  height:100%;
+  top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+#part{
+  width:75%;
+  margin-left:320px;
+}
+
+header{
+  font-weight:bold;
+  font-size:22px;
+}
+
+#navbar{
+text-align:center;
+  background-color:white;
+}
+
+p{
+font-size:18px;
+}
+
+pre {
+  overflow:hidden;
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    padding:20px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  
+}
+
+.nav-link{
+text-decoration:none;
+  color:teal;
+}
+
+li: hover{
+color:blue;
+}
+
+@media only screen and (max-width: 600px) {
+  #back_end_development_code {
+ display:none;
+  }
+}
+
+#Types_of_Back_end_Languages > ul > li > a{
+  text-decoration:none;
+  color:teal;
+}
